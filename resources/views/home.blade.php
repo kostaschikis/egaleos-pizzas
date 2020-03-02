@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    <p> <a href="/pizzas">View all Pizza orders</a> </p>
                 </div>
             </div>
         </div>
