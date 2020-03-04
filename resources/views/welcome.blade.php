@@ -22,7 +22,7 @@
             Egaleo's Best Pizzas
         </div>
         <p class="mssg">{{ session('mssg') }}</p>
-        <a href="/pizzas/create">Order a Pizza</a>
+        <a href="{{ route('pizzas.create') }}">Order a Pizza</a>
     </div>
 </div>
 @endsection

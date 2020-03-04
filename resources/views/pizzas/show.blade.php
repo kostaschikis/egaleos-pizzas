@@ -11,7 +11,7 @@
             <li>{{ $topping }}</li>
         @endforeach    
     </ul>
-    <form action="/pizzas/{{ $pizza->id }}" method="post">
+    <form action="{{ route('pizzas.destroy', $pizza->id) }}" method="post">
         @csrf
         @method('DELETE')
         <button>Complete Order</button>
