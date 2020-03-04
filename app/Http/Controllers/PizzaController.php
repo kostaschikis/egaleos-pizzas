@@ -7,6 +7,13 @@ use App\Pizza;
 
 class PizzaController extends Controller
 {
+    /* if you want to protect every single rout
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    */
+
     public function index() {
         // $pizzas = [
         //     ['type' => 'hawaiian', 'base' => 'cheesy crust'],
