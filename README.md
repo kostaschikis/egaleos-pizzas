@@ -12,7 +12,7 @@ A pizza order management system made in the purpose of learning **Laravel**.
 
 ## How to Install
 
-1. `php composer.phar install`
+1. `composer install`
 2. `npm install`
 3. `php artisan serve`
 
