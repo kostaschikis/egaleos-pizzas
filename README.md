@@ -1,4 +1,4 @@
-# Egaleos Pizzas
+# Egaleos Pizzas 🍕
 
 A pizza order management system made in the purpose of learning **Laravel**.  
 
